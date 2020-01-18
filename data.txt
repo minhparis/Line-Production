@@ -1,0 +1,5 @@
+transf:transfo_1;[produit1:1];[ligne2:produit2:2];2000;.02;(200,100)
+transf:entree_1;[];[ligne1:produit1:1];0;0;(100,100)
+transf:sortie_1;[produit2:1];[];0;0;(300,100)
+ligne:ligne1;entree_1;transfo_1;5
+ligne:ligne2;transfo_1;sortie_1;1
